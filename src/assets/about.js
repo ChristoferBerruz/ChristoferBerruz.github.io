@@ -5,20 +5,20 @@ import icpcLogo from '../images/icpc_original.jpg';
 import connundrumLogo from '../images/connundrum_original.png';
 import dataChallengeLogo from '../images/data-challenge_original.jpg';
 
-export const bio = ["I am currently a rising senior at the University of Bridgeport studying Computer Science and Mathematics. I am originally from Ecuador, a small country in South America, and the first programmer in my family.",
-"Primarly a student, I am also the Vice president of UB's programming club, a passionate STEM Tutor, and a technology writer.",
-"As a programmer, my favorite languages are Python, JS, and Go. I am excited about Web Development and I aim to be a Full Stack Engineer. As a person, I love learning and understanding concepts, people, and ideas; and helping othes gain knowledge."];
+export const bio = `I am currently a rising senior at the University of Bridgeport studying Computer Science and Mathematics. I am originally from Ecuador, a small country in South America, and the first programmer in my family.
+Primarly a student, I am also the Vice president of UB's programming club, a passionate STEM Tutor, and a technology writer.
+As a programmer, my favorite languages are Python, JS, and Go. I am excited about Web Development and I aim to be a Full Stack Engineer. As a person, I love learning and understanding concepts, people, and ideas; and helping othes gain knowledge.`;
 
 export const workPlaces = [{
     "logo": pureLogo, 
     "name":"Pure Storage",
     "position": "Software Engineer Intern",
-    "description": "Currently working as a Software Engineer intern in middleware services improving testing time turnaround."
+    "description": "Worked improving testing time turnaround and increasing test granularity. "
 },{
     "logo": washULogo,
     "name": "Washington University in St. Louis",
     "position": "Undergraduate Research Assistant",
-    "description": "Worked as a Undergraduate Research Assistant in the area of computational astrophysics."
+    "description": "Develop efficient algorithms for detecting gamma-ray bursts using data from Compton scatter photon events."
 }];
 
 export const profilePicture = myself;

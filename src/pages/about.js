@@ -3,19 +3,14 @@ import {Card, CardImg, CardBody, CardTitle, CardSubtitle, CardText} from 'reacts
 import Header from '../components/header';
 import Footer from '../components/footer';
 import {bio, workPlaces, competitions, profilePicture} from '../assets/about';
-
+import {MultiLineText} from '../components/text';
 function BioDescription(){
-    const bioText = bio.map((paragraph) => {
-        return(
-            <p>{paragraph}</p>
-        );
-    });
     return(
         <div className="col-12 col-md-8">
             <div className="text-center">
                 <h2> About me</h2>
             </div>
-            {bioText}
+            <MultiLineText multiLineText={bio}/>
         </div>
     );
 }

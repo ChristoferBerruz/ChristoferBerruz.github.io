@@ -41,7 +41,9 @@ function Banner(){
                         <JumbotronTitle />
                     </div>
                     <div className="col-12 col-md-4">
-                        <JumbotronTechStack />
+                        <div className="col-12">
+                            <JumbotronTechStack />
+                        </div>
                     </div>
                 </div>
             </div>

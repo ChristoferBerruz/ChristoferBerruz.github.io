@@ -1,12 +1,9 @@
 import React from "react"
-import {Button} from 'reactstrap';
 import Header from '../components/header';
 import Footer from '../components/footer';
-export default function Home() {
+import Home from './home';
+export default function BaseEndpoint() {
   return(
-    <div>
-      <Header />
-      <Footer />
-    </div>
+    <Home />
   );
 }

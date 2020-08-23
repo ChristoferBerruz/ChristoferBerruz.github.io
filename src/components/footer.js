@@ -39,11 +39,11 @@ function FooterContent(){
                 </ul>
             </div>
 
-            <div className="col-8 col-sm-5">
+            <div className="col-8 col-sm-7">
                 {quote}
             </div> 
 
-            <div className="col-12 col-sm-5 align-self-center text-center">
+            <div className="col-12 col-sm-3 align-self-center text-center">
                 {socialNets}
             </div>
         </div>
