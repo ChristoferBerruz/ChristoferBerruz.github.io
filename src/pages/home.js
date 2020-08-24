@@ -11,11 +11,7 @@ function HomeContent(){
             <div className="row row-content">
                 <div className="col-12">
                     <h2> About this website </h2>
-                </div>
-                <div className="col-12">
                     <MultiLineText multiLineText={websiteDescription} />
-                </div>
-                <div className="col-12">
                     <span> If you want to get to know me, check out </span> 
                     <Link to="/about">my bio</Link> or
                     <Link to="/resume"> my resume</Link>.

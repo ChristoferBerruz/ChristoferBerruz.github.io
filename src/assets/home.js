@@ -1,3 +1,3 @@
-export const websiteDescription = `This website was built using React and GatsbyJS. Why? Because React makes my life easier to organize and render components ans GatsbyJS makes building and deploying to Github Pages a breeze. Plus, this website is really not interactive, so a static built just makes sense.
-On a fun note, this is the third iteration of this website over a period of 2 months since May 2020. At the beginning, it was fully built using plain HTML, Bootstrap 3 and CSS media queries.
+export const websiteDescription = `This website was built using React and GatsbyJS. Why? Because React makes my life easier to organize and render components and GatsbyJS makes building and deploying to Github Pages a breeze. Plus, this website is really not interactive, so a static built just makes sense.
+On a fun note, this is the third iteration of this website over a period of 2 months since June 2020. At the beginning, it was fully built using plain HTML, Bootstrap 3 and CSS media queries.
 I am planning on adding a Blog feature later in the future, so take a look around!`;

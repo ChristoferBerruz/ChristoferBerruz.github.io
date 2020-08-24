@@ -1,7 +1,7 @@
 
 @import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap);
-@import url(https://fonts.googleapis.com/css2?family=Merriweather&display=swap);
-$font-header-family: 'Merriweather', serif;
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap);
+$font-header-family: 'Roboto', sans-serif;
 $font-body-family: 'Open Sans', sans-serif;
 $primary-color:#f1faee;
 $secondary-color: #a8dadc;
@@ -13,6 +13,7 @@ $all-white: #ffffff;
 body{
     background-color: $primary-color;
     font-family: $font-body-family;
+    font-size: 16px;
 }
 
 .jumbotron{
@@ -44,7 +45,7 @@ h2, h3, h4{
     padding: 10px 0px 10px 0px;
 }
 
-.btn{
+.btn-primary{
     background-color: $navigation-color;
     color: $all-white;
 }

@@ -8,12 +8,8 @@ import {jumbotronDescription, jumbotronTitle, techIcons} from '../assets/jumbotr
 function JumbotronTitle(){
     return(
         <div>
-            <div className="col-12">
-                <h2> {jumbotronTitle}</h2>
-            </div>
-            <div className="col-12">
-                {jumbotronDescription}
-            </div>
+            <h2> {jumbotronTitle}</h2>
+            {jumbotronDescription}
         </div>
     );
 }
@@ -36,14 +32,12 @@ function Banner(){
     return(
         <Jumbotron>
             <div className="container">
-                <div className="row">
+                <div className="row row-content">
                     <div className="col-12 col-md-8">
                         <JumbotronTitle />
                     </div>
                     <div className="col-12 col-md-4">
-                        <div className="col-12">
-                            <JumbotronTechStack />
-                        </div>
+                        <JumbotronTechStack />
                     </div>
                 </div>
             </div>

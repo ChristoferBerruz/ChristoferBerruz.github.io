@@ -6,8 +6,8 @@ import connundrumLogo from '../images/connundrum_original.png';
 import dataChallengeLogo from '../images/data-challenge_original.jpg';
 
 export const bio = `I am currently a rising senior at the University of Bridgeport studying Computer Science and Mathematics. I am originally from Ecuador, a small country in South America, and the first programmer in my family.
-Primarly a student, I am also the Vice president of UB's programming club, a passionate STEM Tutor, and a technology writer.
-As a programmer, my favorite languages are Python, JS, and Go. I am excited about Web Development and I aim to be a Full Stack Engineer. As a person, I love learning and understanding concepts, people, and ideas; and helping othes gain knowledge.`;
+Primarly a student, I am the founder of the University of Bridgeport Programming Club, a passionate STEM Tutor, and a technology writer.
+As a programmer, I like exploring new trends. I am excited about Web Development and I aim to be a Full Stack Engineer. I am currently trying Blazor WebAssembly, and I love it! As a person, I love learning and understanding concepts, people, and ideas; and helping others gain knowledge.`;
 
 export const workPlaces = [{
     "logo": pureLogo, 
