@@ -2,6 +2,7 @@ import React from 'react';
 import Header from '../components/header';
 import Footer from '../components/footer';
 import resumePdf from '../files/Christofer_Berruz_Resume.pdf';
+import SEO from '../components/seo';
 
 function ResumeContent(){
     return(
@@ -19,6 +20,7 @@ function ResumeContent(){
 export default function Resume(){
     return(
         <div>
+            <SEO title={"Resume"} description={"Learn more about Christofer Berruz's skills and qualitifications"}/>
             <Header page={"Resume"}/>
             <ResumeContent />
             <Footer/>

@@ -4,6 +4,8 @@ import Header from '../components/header';
 import Footer from '../components/footer';
 import {bio, workPlaces, competitions, profilePicture} from '../assets/about';
 import {MultiLineText} from '../components/text';
+import SEO from '../components/seo';
+
 function BioDescription(){
     return(
         <div className="col-12 col-md-8">
@@ -85,6 +87,7 @@ function AboutSection({title, activityList, maxHeight="100%", maxWidth="100%"}){
 export default function About(){
     return(
         <div>
+            <SEO title={"About"} />
             <Header page={"About"}/>
             <div className="container">
                 <Bio />

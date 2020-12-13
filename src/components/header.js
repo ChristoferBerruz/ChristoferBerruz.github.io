@@ -2,7 +2,6 @@ import React from 'react';
 import {Component} from 'react';
 import {Navbar, NavbarBrand, NavbarToggler, Collapse, NavItem, Nav, Jumbotron} from 'reactstrap'
 import {Link} from 'gatsby';
-import logo from '../images/logo.png';
 import {jumbotronDescription, jumbotronTitle, techIcons} from '../assets/jumbotron';
 
 function JumbotronTitle(){

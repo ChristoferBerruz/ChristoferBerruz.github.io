@@ -4,6 +4,8 @@ import Footer from '../components/footer';
 import {websiteDescription} from '../assets/home';
 import {MultiLineText} from '../components/text';
 import {Link} from 'gatsby';
+import SEO from '../components/seo';
+
 
 function HomeContent(){
     return(
@@ -24,6 +26,7 @@ function HomeContent(){
 export default function Home(){
     return(
         <div>
+            <SEO />
             <Header page={"Home"} />
             <HomeContent />
             <Footer />
